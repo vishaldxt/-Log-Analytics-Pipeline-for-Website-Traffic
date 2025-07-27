@@ -41,9 +41,9 @@ website_analytics_pipeline/
 
 
 ├── dags/
-│   ├── calculate_website_metrics.py        
-│   ├── daily_metrics_pipeline.py          
-│   ├── dimensional_model_transformation.py 
-│   └── dwh_transformation_dag.py          
+│       ├── calculate_website_metrics.py        
+│       ├── daily_metrics_pipeline.py          
+│       ├── dimensional_model_transformation.py 
+│       └── dwh_transformation_dag.py          
 ├── requirements.txt                        
 └── README.md                                
