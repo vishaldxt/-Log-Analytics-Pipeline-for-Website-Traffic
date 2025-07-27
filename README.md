@@ -37,3 +37,11 @@ The pipeline automates the following stages:
 * **Pandas:** Used within Airflow's Python tasks for reading small CSVs and preparing data for SQL loading.
 
 ## Project Structure
+website_analytics_pipeline/
+├── dags/
+│   ├── calculate_website_metrics.py        
+│   ├── daily_metrics_pipeline.py          
+│   ├── dimensional_model_transformation.py 
+│   └── dwh_transformation_dag.py          
+├── requirements.txt                        
+└── README.md                                
