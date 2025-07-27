@@ -38,6 +38,8 @@ The pipeline automates the following stages:
 
 ## Project Structure
 website_analytics_pipeline/
+
+
 ├── dags/
 │   ├── calculate_website_metrics.py        
 │   ├── daily_metrics_pipeline.py          
